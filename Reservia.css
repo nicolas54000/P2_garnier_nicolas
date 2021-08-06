@@ -1,0 +1,443 @@
+/* Eléments principaux de la page */
+
+body
+{
+    background: #F2F2F2;
+    font-family:  Arial, sans-serif;
+    color: #181818;
+	margin: 50px;
+}
+
+#bloc-page
+{
+   /*  width: 900px; */
+    margin: auto;
+}
+
+h1
+{
+   font-family:  Arial, sans-serif;
+   font-size: 1em;
+  /*  text-align: center */
+  /* color: #181818; */
+}
+
+h2
+{
+   font-family:  Arial, sans-serif;
+   font-size: 1.5em;
+ 
+}
+
+.titre-page
+{
+    
+	font-family: 'Raleway', sans-serif;
+    font-size: 1.3em;
+	font-weight: bold;
+    /* text-transform: uppercase;  */
+}
+
+.img-entete
+ {
+	width: 70px;
+	height: auto;
+}
+
+
+.imgx
+{
+	/* background-color: #DEEBFF; */
+	color: red;
+}
+
+.img-logo 
+{
+	width: 12px;
+	height: auto;
+	
+	/*  padding:2px; */
+	 border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.5em 0.6em;
+    background-color: #DEEBFF;
+	color: #0065FC;
+}
+
+#container-hebergement-populaire
+{
+	display: flex;	
+flex-wrap: wrap;	
+}
+
+  
+/****** herbergeùment marseille ******/
+
+.images-hebergement
+{
+	width: 194px;
+	height: 90px;
+	margin: 3px;  
+	 
+    /* arondi */
+    border-radius: 20px;  
+	}
+	
+#container-hebergement-marseille
+{
+	width: 750px;
+	height: 500px;
+	margin: 5px;
+	
+	border: 1px solid #B22222;
+	border-radius: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	
+}
+
+.titre-hebergement-marseille
+{   
+	
+    font-size: 1.3em;
+	font-weight: bold;
+	margin: 25px;
+    /* text-transform: uppercase;  */
+}
+
+#container-photos-hebergement-marseille
+{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	border: 100px;
+		
+}
+
+.container-photo-hebergement-marseille
+{	
+	width: 200px;
+	height: 150px;
+	margin: 20px;
+	
+	border: 1px solid #B22222;
+	border-radius: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	
+    border-radius: 20px;
+	/* display: flex; */
+	 /* display:inline-block; */
+}
+
+
+/****** les plus-populaires ******/
+
+.images-plus-populaires
+{
+	width: 100px;
+	height: 100px;
+	margin: 3px;  
+	 
+    /* arondi */
+    border-radius: 20px;  
+	}
+	
+#container-plus-populaires
+{
+	width: 300px;
+	height: 500px;
+	margin: 5px;
+	
+	border: 1px solid #B22222;
+	border-radius: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	
+}
+
+.titre-plus-populaires
+{   
+	
+    font-size: 1.3em;
+	font-weight: bold;
+	margin: 25px;
+    /* text-transform: uppercase;  */
+}
+
+#container-photos-plus-populaires
+{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	border: 50px;
+		
+}
+
+.container-photo-plus-populaires
+{	
+	width: 250px;
+	height: 106px;
+	margin: 20px;
+	
+	border: 1px solid #B22222;
+	border-radius: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	
+    border-radius: 20px;
+	display: flex; 
+	 /* display:inline-block; */
+}
+
+/*******activités-a-marseille**************/
+
+
+.images-activités-a-marseille
+{
+	width: 194px;
+	height: 90px;
+	margin: 3px;  
+	 
+    /* arondi */
+    border-radius: 20px;  
+	}
+	
+#container-activités-a-marseille
+{
+	width: 1163px;
+	height: 800px;
+	margin: 5px;
+	
+	border: 1px solid #B22222;
+	border-radius: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	
+}
+
+.titre-activités-a-marseille
+{   
+	
+    font-size: 1.3em;
+	font-weight: bold;
+	margin: 25px;
+    /* text-transform: uppercase;  */
+}
+
+#container-photos-activités-a-marseille
+{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+	border: 100px;
+		
+}
+
+.container-photo-activités-a-marseille
+{	
+	width: 200px;
+	height: 150px;
+	margin: 20px;
+	
+	border: 1px solid #B22222;
+	border-radius: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	
+    border-radius: 20px;
+	/* display: flex; */
+	 /* display:inline-block; */
+}
+
+
+
+
+
+.filtre-spam
+{
+	vertical-align: middle;
+}
+
+
+#conteneur {
+  width: 960px;
+  webkit-columns: 3 auto;
+  moz-columns: 3 auto;
+  columns: 3 auto;
+  break-before: column;
+ 
+}
+
+#menu
+ {
+  display: flex; 
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.button-filtre
+  {
+      /* background-color: #DEEBFF; */
+      border-radius: 15px;
+	  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	  margin: 10px;
+ }
+
+li
+{
+  margin: 8px;
+}
+
+
+#container
+{
+    width:400px;
+    margin: auto;
+    margin-top:10%;
+}
+
+p
+{
+display: flex;
+/* flex-direction: column; */
+width: 80%;
+text-align: justify;
+margin: auto
+}
+
+.blockFooter {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+
+ 
+.button-filtre:hover 
+{
+  color: blue;
+}
+  
+.etoile-on
+{ 
+  color: blue;
+  font-weight: bold;
+  font-size: .8em;
+}
+
+.etoile-off
+  {
+  color: gray;
+  font-weight: bold;
+  font-size: .8em;
+}
+
+
+.titre-photo
+  {
+  font-size: 0.8em;
+  font-weight: bold;
+  text-align : left;
+}
+
+.sous-titre-photo
+  {
+  font-size: 0.8em;
+  /* margin: 3px;   */
+  
+}
+
+
+
+
+ /* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+input[type=submit] {
+    background-color: #53af57;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+ input[type=submit]:hover
+ {
+    background-color: white;
+    color: #53af57;
+    border: 1px solid #53af57;
+}
+
+
+.rechercher_loupe
+{
+    display: none;
+}
+
+.rechercher_bouton
+{
+	background-color: #0065FC;
+}
+ 
+/* ***************************************************** */
+@media all and (max-width: 1024px)
+/* ***************************************************** */
+
+
+{
+#Menu 
+	{
+       /* float: left; */
+	    flex-direction: column;
+		/* display: none; */
+	}
+.blockFooter 
+	{
+    
+    flex-direction: column; 
+	}
+.Filter
+	{
+	  flex-direction: column; 
+	}
+
+ p
+	{
+	display: flex;
+	/* flex-direction: column; */
+	width: 100%;
+	text-align: justify;
+	margin: 0	
+	}
+.rechercher_bouton
+	{
+    display: none;
+	}
+
+.rechercher_loupe
+	{
+    display: inline;
+	}
+#container-hebergement-marseille
+{
+	width: 250px;
+	height: auto;
+	margin: 5px;
+	
+	border: 1px solid #B22222;
+	border-radius: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	
+}
+}
