@@ -2,10 +2,10 @@
 
 body
 {
-    background: #F2F2F2;
+    background: #D3D3D3	
     font-family:  Arial, sans-serif;
     color: #181818;
-	margin: 50px;
+	margin: 60px;
 }
 
 #bloc-page
@@ -44,6 +44,19 @@ h2
 	height: auto;
 }
 
+.titre-photo
+  {
+  font-size: 0.8em;
+  font-weight: bold;
+  text-align : left;
+}
+
+.sous-titre-photo
+  {
+  font-size: 0.8em;
+  /* margin: 3px;   */
+  
+}
 
 .imgx
 {
@@ -66,8 +79,19 @@ h2
 
 #container-hebergement-populaire
 {
-	display: flex;	
+display: flex;	
 flex-wrap: wrap;	
+}
+
+#container-recherche
+{
+    width: 290px;
+	height: 22px;
+	margin: 3px;  
+	object-fit: cover;
+	 border: 1px solid #B22222;
+    /* arondi */
+    border-radius: 20px;  
 }
 
   
@@ -78,10 +102,11 @@ flex-wrap: wrap;
 	width: 194px;
 	height: 90px;
 	margin: 3px;  
+	object-fit: cover;
 	 
     /* arondi */
     border-radius: 20px;  
-	}
+}
 	
 #container-hebergement-marseille
 {
@@ -93,6 +118,7 @@ flex-wrap: wrap;
 	border-radius: 10px;
 	margin-top: 15px;
 	margin-bottom: 15px;
+	 background: #F2F2F2;
 	
 }
 
@@ -111,6 +137,7 @@ flex-wrap: wrap;
 	flex-wrap: wrap;
 	align-content: space-between;
 	border: 100px;
+	
 		
 }
 
@@ -126,8 +153,15 @@ flex-wrap: wrap;
 	margin-bottom: 15px;
 	
     border-radius: 20px;
+	background: #FFFFFF;
 	/* display: flex; */
 	 /* display:inline-block; */
+}
+
+.container-photo-hebergement-marseille:hover
+{
+	transform: scale(1.05);
+	transition: ease 0.3s;	 
 }
 
 
@@ -138,6 +172,7 @@ flex-wrap: wrap;
 	width: 100px;
 	height: 100px;
 	margin: 3px;  
+	object-fit: cover;
 	 
     /* arondi */
     border-radius: 20px;  
@@ -145,7 +180,7 @@ flex-wrap: wrap;
 	
 #container-plus-populaires
 {
-	width: 300px;
+	width: 350px;
 	height: 500px;
 	margin: 5px;
 	
@@ -153,6 +188,7 @@ flex-wrap: wrap;
 	border-radius: 10px;
 	margin-top: 15px;
 	margin-bottom: 15px;
+	 background: #F2F2F2;
 	
 }
 
@@ -188,6 +224,7 @@ flex-wrap: wrap;
     border-radius: 20px;
 	display: flex; 
 	 /* display:inline-block; */
+	 background: #FFFFFF;
 }
 
 /*******activités-a-marseille**************/
@@ -195,30 +232,41 @@ flex-wrap: wrap;
 
 .images-activités-a-marseille
 {
-	width: 194px;
-	height: 90px;
-	margin: 3px;  
+	width: 240px;
+	height: 330px;
+	/* margin: 3px;   */
+	object-fit: cover;
 	 
     /* arondi */
     border-radius: 20px;  
 	}
 	
+.images-petite-activités-a-marseille
+{
+	width: 240px;
+	height: 150px;
+	/* margin: 3px;   */
+	object-fit: cover;
+	 
+    /* arondi */
+    border-radius: 20px;  
+	}	
 #container-activités-a-marseille
 {
-	width: 1163px;
-	height: 800px;
+	width: 1112px;
+	height: 600px;
 	margin: 5px;
 	
 	border: 1px solid #B22222;
 	border-radius: 10px;
 	margin-top: 15px;
 	margin-bottom: 15px;
+	 background: #F2F2F2;
 	
 }
 
 .titre-activités-a-marseille
-{   
-	
+{   	
     font-size: 1.3em;
 	font-weight: bold;
 	margin: 25px;
@@ -228,29 +276,41 @@ flex-wrap: wrap;
 #container-photos-activités-a-marseille
 {
 	display: flex;
-	flex-wrap: wrap;
-	align-content: space-between;
-	border: 100px;
+	/* flex-wrap: wrap; */
+	flex-start;
+	/* align-content: start; */
+	/* border: 10px; */
 		
 }
 
 .container-photo-activités-a-marseille
 {	
-	width: 200px;
-	height: 150px;
-	margin: 20px;
+	width: 240px;
+	height: 400px;
+	margin: 15px;
 	
 	border: 1px solid #B22222;
-	border-radius: 10px;
-	margin-top: 15px;
-	margin-bottom: 15px;
+	/* border-radius: 10px; */
+	/* margin-top: 15px;
+	margin-bottom: 15px; */
 	
     border-radius: 20px;
 	/* display: flex; */
 	 /* display:inline-block; */
+	 background: #FFFFFF;
 }
 
-
+.container-petite-photo-activités-a-marseille
+{	
+	width: 240px;
+	height: 200px;
+	margin: 15px;
+	
+	border: 1px solid #B22222;	
+    border-radius: 20px;
+	
+	 background: #FFFFFF;
+}
 
 
 
@@ -259,14 +319,13 @@ flex-wrap: wrap;
 	vertical-align: middle;
 }
 
-
-#conteneur {
+#conteneur 
+{
   width: 960px;
   webkit-columns: 3 auto;
   moz-columns: 3 auto;
   columns: 3 auto;
-  break-before: column;
- 
+  break-before: column; 
 }
 
 #menu
@@ -283,6 +342,12 @@ flex-wrap: wrap;
 	  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 	  margin: 10px;
  }
+
+.button-filtre:hover 
+{
+ background-color: gray;
+}
+
 
 li
 {
@@ -306,7 +371,8 @@ text-align: justify;
 margin: auto
 }
 
-.blockFooter {
+.blockFooter
+ {
     background-color: lightgrey;
     display: flex;
     justify-content: space-around;
@@ -314,10 +380,7 @@ margin: auto
   }
 
  
-.button-filtre:hover 
-{
-  color: blue;
-}
+
   
 .etoile-on
 { 
@@ -334,19 +397,7 @@ margin: auto
 }
 
 
-.titre-photo
-  {
-  font-size: 0.8em;
-  font-weight: bold;
-  text-align : left;
-}
 
-.sous-titre-photo
-  {
-  font-size: 0.8em;
-  /* margin: 3px;   */
-  
-}
 
 
 
