@@ -66,16 +66,87 @@ h2
 
 .img-logo 
 {
-	width: 12px;
+	/* width: 12px;
 	height: auto;
 	
 	/*  padding:2px; */
-	 border-radius: 60px;
+	 /* border-radius: 60px;
     box-shadow: 0px 0px 2px #888;
     padding: 0.5em 0.6em;
     background-color: #DEEBFF;
+	color: #0065FC; */
+	
 	color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+    padding: 15px;
+    margin-right: 10px;
+	
+	
 }
+
+/* ************** recherche ************* */
+
+#container-recherche
+{
+	
+	display: flex;
+    /* width: 290px;
+	height: 22px;
+	margin: 3px;  
+	object-fit: cover;
+	 border: 1px solid #B22222;
+    /* arondi */
+   /*  border-radius: 20px;   */ */
+}
+
+
+.recherche_bouton {
+    background-color: #0065fc;
+    border-radius: 0px 15px 15px 0px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    cursor: pointer;
+}
+
+.recherche_loupe {
+    /* visibility: hidden; */
+	display: none;
+    background-color: #0065fc;
+    border-radius: 0px 15px 15px 0px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    font-size: 1em;
+    padding-left: 0;
+    color: white;
+    cursor: pointer;
+	}
+
+.search_area_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: #ececec;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.search_area_input {
+    height: 50px;
+    width: 100%;
+    border: 1px solid #ececec;
+    padding-left: 10%;
+    font-size: 14px;
+}
+
+
 
 #container-hebergement-populaire
 {
@@ -83,16 +154,6 @@ display: flex;
 flex-wrap: wrap;	
 }
 
-#container-recherche
-{
-    width: 290px;
-	height: 22px;
-	margin: 3px;  
-	object-fit: cover;
-	 border: 1px solid #B22222;
-    /* arondi */
-    border-radius: 20px;  
-}
 
   
 /****** herbergeùment marseille ******/
@@ -129,6 +190,15 @@ flex-wrap: wrap;
 	font-weight: bold;
 	margin: 25px;
     /* text-transform: uppercase;  */
+}
+.texte-recherche
+{   
+	display: flex;
+	font-size: 1.3em;
+    font-weight: 700;
+    align-items: center;
+	margin-right:15px;
+	
 }
 
 #container-photos-hebergement-marseille
@@ -337,10 +407,12 @@ flex-wrap: wrap;
 
 .button-filtre
   {
-      /* background-color: #DEEBFF; */
-      border-radius: 15px;
-	  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-	  margin: 10px;
+    font-size: 1em;
+    font-weight: 600;
+    border: solid 2px #e2e2e2;
+    border-radius: 50px;
+    padding-right: 20px;
+    margin-right: 10px;
  }
 
 .button-filtre:hover 
@@ -348,6 +420,10 @@ flex-wrap: wrap;
  background-color: gray;
 }
 
+.filtre 
+{
+ display: flex;
+}
 
 li
 {
@@ -470,12 +546,12 @@ input[type=submit] {
 	text-align: justify;
 	margin: 0	
 	}
-.rechercher_bouton
+.recherche_bouton
 	{
     display: none;
 	}
 
-.rechercher_loupe
+.recherche_loupe
 	{
     display: inline;
 	}
@@ -490,5 +566,10 @@ input[type=submit] {
 	margin-top: 15px;
 	margin-bottom: 15px;
 	
+}
+.filtre 
+{
+ display: flex;
+  flex-direction: column;
 }
 }

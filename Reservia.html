@@ -21,8 +21,8 @@
         <div id="bloc-page">
             <header>		
 				<ul id="menu">				
-						<li><a href="#" title="aller à la section 1">Hebergement</a></li>												  
-						<li><a href="#" title="aller à la section 2">Activité</a></li>										
+						<li><a href="#section-hebergement" title="aller à la section 1">Hebergement</a></li>												  
+						<li><a href="#section-activite" title="aller à la section 2">Activité</a></li>										
 						<li><a href="Login.html" title="aller à la section 3">S'inscrire</a></li>
 					
 				</ul>
@@ -39,17 +39,15 @@
                 </div>
 				<!--  <i class="far fa-angry img-logo" ></i> -->
 				<BR/>
-				
-			
-                <label>Choisisez votre ville :</label>
-				<BR/><BR/>
+					
+                <BR/>
 
 			<div id="container-recherche">
                 
-				 <i class="fas fa-map-marker-alt"></i>
-                <input type="search" class="type-search" placeholder="Marseille, France" name="location-search">
-                <button class="rechercher_bouton"><span>Rechercher</span></button>
-                <button class="rechercher_loupe"><span><i class="fas fa-search"></i></span></button>
+				<i class="fas fa-map-marker-alt search_area_icon"></i>
+                <input type="search_area_input" class="type-search" placeholder="Marseille, France" name="location-search">
+                <button class="recherche_bouton"><span>Rechercher</span></button>
+                <button class="recherche_loupe"><span><i class="fas fa-search"></i></span></button>
             </div>        
 			
 			 
@@ -58,14 +56,31 @@
 			 
 			<div>
 			 
-			<label> Filtres : </label>
- 			<button class="button-filtre" type="button"> <i class="fas fa-cart-plus img-logo"></i>  Economique </button>
-			<button class="button-filtre" type="button"><i class="fas fa-user-plus img-logo"></i>  Famille </button>
-			<button class="button-filtre" type="button"><i class="fas fa-heart img-logo"></i> Romantique </button>
-			<button class="button-filtre" type="button"><i class="fas fa-dog img-logo"></i> Animaux autorisés </button>
-            
+			
+			
+		<div class="filtre" >
+		
+			<span class="texte-recherche"> Filtres : </span>
+			
+ 			<div class="button-filtre" >
+				<i class="fas fa-cart-plus img-logo"></i>
+				<label>Economique </label>
+			</div>	
+			
+			<div class="button-filtre" >
+				<i class="fas fa-user-plus img-logo"></i>
+				<label>  Famille </label>
+			</div>	
+			
+			<div class="button-filtre">
+				<i class="fas fa-heart img-logo"></i>
+				<label>Romantique </label>
+			</div>	
+			<div class="button-filtre">
+				<i class="fas fa-dog img-logo"></i>
+				<label> Animaux autorisés </label>
             </div>
-
+		</div>
           
             <BR/>
 			<BR/>
@@ -80,7 +95,9 @@
 			
              </header>
 			 <div class="marge_gauche"><i class="fas fa-info-circle "></i> &nbsp Plus de 500 logements sont disponibles dans cette ville</div>
-			 
+
+	<a id="section-hebergement"></a>
+	
 	<div id="container-hebergement-populaire">
 			 
 			<div id="container-hebergement-marseille">
@@ -196,6 +213,8 @@
 		</div> 
 				
 </div> 
+
+<a id="section-activite"></a>
 
 		<div id="container-activités-a-marseille">
 			
