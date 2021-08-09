@@ -14,6 +14,34 @@ body
     margin: auto;
 }
 
+#menu
+ {
+  display: flex; 
+  justify-content: flex-end;
+  list-style: none;
+  
+}
+.lien_menu
+{
+	border: 2px solid transparent;
+    font-size: 1.2em;
+    padding-top: 28px;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-right: 50px;
+	 text-decoration:none; 
+
+}
+
+.lien_menu:hover
+{
+	border-top-color: 0065FC; 
+	border-top: solid;
+	color: #0065FC; 
+   
+
+}
+
 h1
 {
    font-family:  Arial, sans-serif;
@@ -40,7 +68,7 @@ h2
 
 .img-entete
  {
-	width: 70px;
+	width: 150px;
 	height: auto;
 }
 
@@ -175,7 +203,7 @@ flex-wrap: wrap;
 	height: 500px;
 	margin: 5px;
 	
-	border: 1px solid #B22222;
+	/* border: 1px solid #B22222; */
 	border-radius: 10px;
 	margin-top: 15px;
 	margin-bottom: 15px;
@@ -217,7 +245,7 @@ flex-wrap: wrap;
 	height: 150px;
 	margin: 20px;
 	
-	border: 1px solid #B22222;
+	/* border: 1px solid #B22222; */
 	border-radius: 10px;
 	margin-top: 15px;
 	margin-bottom: 15px;
@@ -254,7 +282,7 @@ flex-wrap: wrap;
 	height: 500px;
 	margin: 5px;
 	
-	border: 1px solid #B22222;
+	/* border: 1px solid #B22222; */
 	border-radius: 10px;
 	margin-top: 15px;
 	margin-bottom: 15px;
@@ -286,7 +314,7 @@ flex-wrap: wrap;
 	height: 106px;
 	margin: 20px;
 	
-	border: 1px solid #B22222;
+/* 	border: 1px solid #B22222; */
 	border-radius: 10px;
 	margin-top: 15px;
 	margin-bottom: 15px;
@@ -295,6 +323,12 @@ flex-wrap: wrap;
 	display: flex; 
 	 /* display:inline-block; */
 	 background: #FFFFFF;
+}
+
+.container-photo-plus-populaires:hover
+{
+	transform: scale(1.05);
+	transition: ease 0.3s;	 
 }
 
 /*******activités-a-marseille**************/
@@ -327,7 +361,7 @@ flex-wrap: wrap;
 	height: 600px;
 	margin: 5px;
 	
-	border: 1px solid #B22222;
+	/* border: 1px solid #B22222; */
 	border-radius: 10px;
 	margin-top: 15px;
 	margin-bottom: 15px;
@@ -346,10 +380,7 @@ flex-wrap: wrap;
 #container-photos-activités-a-marseille
 {
 	display: flex;
-	/* flex-wrap: wrap; */
-	flex-start;
-	/* align-content: start; */
-	/* border: 10px; */
+	
 		
 }
 
@@ -359,7 +390,7 @@ flex-wrap: wrap;
 	height: 400px;
 	margin: 15px;
 	
-	border: 1px solid #B22222;
+	/* border: 1px solid #B22222; */
 	/* border-radius: 10px; */
 	/* margin-top: 15px;
 	margin-bottom: 15px; */
@@ -370,7 +401,7 @@ flex-wrap: wrap;
 	 background: #FFFFFF;
 }
 
-.container-petite-photo-activités-a-marseille
+/* .container-petite-photo-activités-a-marseille
 {	
 	width: 240px;
 	height: 200px;
@@ -381,7 +412,12 @@ flex-wrap: wrap;
 	
 	 background: #FFFFFF;
 }
-
+ */
+.container-photo-activités-a-marseille:hover
+{
+	transform: scale(1.05);
+	transition: ease 0.3s;	 
+}
 
 
 .filtre-spam
@@ -398,12 +434,7 @@ flex-wrap: wrap;
   break-before: column; 
 }
 
-#menu
- {
-  display: flex; 
-  justify-content: flex-end;
-  list-style: none;
-}
+
 
 .button-filtre
   {
@@ -452,10 +483,14 @@ margin: auto
     background-color: lightgrey;
     display: flex;
     justify-content: space-around;
+	
     
   }
 
- 
+ a {
+    text-decoration: none;
+    color: black;
+}
 
   
 .etoile-on
@@ -555,6 +590,11 @@ input[type=submit] {
 	{
     display: inline;
 	}
+	
+#container-photos-activités-a-marseille
+{
+	display: inline;			
+}
 #container-hebergement-marseille
 {
 	width: 250px;
