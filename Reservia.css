@@ -677,10 +677,8 @@ body
 	padding: 20px 20px 20px 20px;
 	box-shadow: 2px 2px 8px rgb(0 0 0 / 50%);
 	border-radius: 50px;
-
 	/*** marge entre images ***/
 	margin-bottom: 40px;
-
 }
 
 .titre-photo
@@ -714,7 +712,7 @@ body
 
 .images-hebergement
 {
-	width: 780px;
+	width: 774px;
 	height: 200px;
 	margin: 3px;
 	margin: 3px;
@@ -726,11 +724,11 @@ body
 
 #container-hebergement-marseille
 	{
-	height: auto;
-	width: auto;
+		height: auto;
+		width: auto;
+
 	flex-direction: column;
 	border: 1px solid #B22222;
-
 	}
 
 .container-photo-hebergement-marseille
@@ -748,8 +746,6 @@ body
 
 }
 
-
-
 #container-activités-a-marseille
 {
 	height: auto;
@@ -766,7 +762,7 @@ body
 	{
  	display: flex;
   	flex-direction: column;
-	  width: 250px;
+	width: 250px;
 	}
 
 .sousmenu
