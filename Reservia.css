@@ -271,13 +271,10 @@ h2
 	margin-right:15px;
 }
 
-
 .titre-filtres-mobile
 {
 	display: none;
-
 }
-
 
 #container-photos-hebergement-marseille
 {
@@ -594,7 +591,6 @@ header
 	margin-right: 50px;
 }
 
-
 #Menu
 	{
        /* float: left; */
@@ -611,7 +607,6 @@ body
 {
 	width: 300px;
 	height: auto;
-
 }
 
 .register-link
@@ -620,7 +615,6 @@ body
 	font-size: 3.6em;
 	font-weight: 600;
 	margin-top: 50px;
-
 }
 
 .blockFooter
@@ -632,7 +626,6 @@ body
 {
 
 }
-
 
 .recherche_bouton
 	{
@@ -646,12 +639,12 @@ body
 
 .titre-page-l1
 	{
-		font-size: 44px;
-		font-weight: bold;
-		margin-top: 100px;
-
+	font-size: 44px;
+	font-weight: bold;
+	margin-top: 100px;
 	}
-	h2
+
+h2
 {
    font-size: 1em;
 }
@@ -681,8 +674,21 @@ body
 }
 .titre-filtres-mobile
 {
-	font-size: 1.3em;
+	font-size: 1.9em;
+	display: inline;
+	margin: 20px;
+}
 
+
+.titre-info
+{
+	font-size: 2em;
+	margin: 50px;
+}
+.titre-plus-populaires
+{
+	font-size: 3.4em;
+	margin: 50px;
 }
 
 
@@ -732,7 +738,8 @@ body
 
 .titre-photo
 	{
-  font-size: 10px;
+  font-size: 1.6rem;
+  font-family: Georgia, serif;
   font-weight: bold;
   text-align : left;
 	}
