@@ -5,10 +5,14 @@ body
     background: #FFFFFF;
 	font-family: 'Raleway', sans-serif;
     color: #181818;
+
+}
+.mes_conteneur
+{
+
 	margin-left: 50px;
 	margin-right: 50px;
 }
-
 .navigation-container
 {
    	display: flex;
@@ -408,8 +412,9 @@ h2
 {
 	/*width: 1135px;  */
 	width: 100%;
-	height: 600px;
-	/* border: 1px solid #B22222; */
+	height:auto;
+	/*height: 600px;*/
+	border: 1px solid #B22222;
 	border-radius: 10px;
 	margin-top: 15px;
 	margin-bottom: 15px;
@@ -508,6 +513,7 @@ p
     display: flex;
     justify-content: space-around;
 	background: #f2f2f2;
+	margin-left:  0px;
 }
 
 .titre-footer
@@ -578,13 +584,16 @@ a
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 667px)
-and (-webkit-min-device-pixel-ratio: 2)
+/* and (-webkit-min-device-pixel-ratio: 2) */
 
 /*******************************************************/
 
 
 
 {
+	.photo-hover {
+		/* changer la taille */
+	}
 header
 {
 	margin-left: 60px;
@@ -622,10 +631,7 @@ body
     flex-direction: column;
 	}
 
-	#container-recherche
-{
 
-}
 
 .recherche_bouton
 	{
@@ -707,7 +713,7 @@ h2
 .images-plus-populaires
 {
 	width: 300px;
-	height: 250px;
+	height: 294px;
 	margin: 3px;
 	border-radius: 50px 0px 0px 50px;
 }
@@ -724,9 +730,9 @@ h2
 	justify-content: center;
 	}
 
-.container-photo-plus-populaires
+	.container-photo-plus-populaires
 {
-	height: auto;
+	height: 300px;
 	margin: auto;
 	width: 80%;
 	padding: 20px 20px 20px 20px;
@@ -762,7 +768,7 @@ h2
 {
 	color: gray;
 	font-weight: bold;
-	font-size: 1.9rem;
+	font-size: 20px;
 }
 
 .recherche_loupe
@@ -792,7 +798,7 @@ h2
 
 .images-hebergement
 {
-	width: 774px;
+	width: 700px;
 	height: 200px;
 	margin: 3px;
 	margin: 3px;
@@ -826,27 +832,17 @@ h2
 
 /*************** activités-a-marseille *************/
 
-#container-activités-a-marseille
-{
-	display: none;
-}
-
 .images-activités-a-marseille
 {
     border-radius: 50px 50px 0px 0px;
 }
 
 
-#container-activités-a-marseille-mobile
-{
-	height: auto;
-	width: auto;
-	flex-direction: column;
-}
-
-#container-photos-activités-a-marseille
+#container-activités-a-marseille
 	{
-	display: inline;
+		height: 2700px;
+		width: auto;
+		flex-direction: column;
 	}
 
 .container-photo-activités-a-marseille
@@ -860,6 +856,20 @@ h2
 	background: #FFFFFF;
 	box-shadow: 2px 2px 8px #f2f2f2;
 }
+
+.container-petite-photo-activités-a-marseille
+{
+	width: 80%;
+	height: 400px;
+	margin: auto;
+	margin-bottom: 100px;
+	/* border: 1px solid #B22222; */
+    border-radius: 50px;
+	background: #FFFFFF;
+	box-shadow: 2px 2px 8px #f2f2f2;
+}
+
+
 
 .titre-photo-activités-a-marseille
 {
@@ -920,6 +930,15 @@ h2
 {
     width: 100%;
 }
+
+.blockFooter
+	{
+		display: block;
+        padding-left: 125px;
+
+	}
+
+
 /*************** fin mobile ******************************/
 }
 
