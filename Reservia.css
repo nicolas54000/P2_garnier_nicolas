@@ -771,34 +771,34 @@ a
 
 	.titre-photo
 	{
-  		font-size: 30px;
+  		font-size: 35px;
   		font-family: Georgia, serif;
   		font-weight: bold;
   		text-align : left;
 	}
 
-.sous-titre-photo
+	.sous-titre-photo
   	{
-  		font-size: 29px;
+  		font-size: 30px;
   		font-weight: 500;
   		/* margin: 3px;   */
 	}
 
-.etoile-on
+	.etoile-on
 	{
 		color: #0065fc;
 		font-weight: bold;
 		font-size: 25px;
 	}
 
-.etoile-off
+	.etoile-off
 	{
 		color: gray;
 		font-weight: bold;
 		font-size: 25px;
 	}
 
-.recherche_loupe
+	.recherche_loupe
 	{
  	   	border-radius: 20px 20px 20px 20px;
   	  	border: none;
@@ -807,14 +807,14 @@ a
    	 	font-size: 2.5em;
 	}
 
-.type-search
+	.type-search
 	{
 		height: 100px;
 		font-size: 2em;
 		margin-left: 40px;
 	}
 
-.search_area_icon
+	.search_area_icon
 	{
     	font-size: 50px;
     	width: 140px;
@@ -843,7 +843,7 @@ a
 	.images-hebergement
 	{
 		width: 700px;
-		height: 200px;
+		height: 300px;
 		margin: 3px;
 		object-fit: cover;
     	/* arondi */
@@ -864,7 +864,7 @@ a
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-		height: 320px;
+		height: 440px;
 		margin: auto;
 		width: 80%;
 		/*** marge entre images ***/
