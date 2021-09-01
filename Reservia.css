@@ -6,13 +6,18 @@ body
 	font-family: 'Raleway', sans-serif;
 	font-weight: normal;
     color: #181818;
+	margin: 0px;
+	min-width: 340px;
+	max-width: 1440px;
 }
+
 .mes_conteneur
 {
-
 	margin-left: 50px;
 	margin-right: 50px;
+	margin-top: 0px;
 }
+
 .navigation-container
 {
   	margin-right: 20px;
@@ -23,6 +28,7 @@ body
   	display: flex;
   	list-style-type: none;
 }
+
 .sousmenu-mobile
 {
   	display: none;
@@ -52,14 +58,19 @@ nav
   /* justify-content: space-around;    */
 }
 
+li
+{
+	margin-left: 8px;
+}
+
 .navigation-link
 {
 	border: 2px solid transparent;
     font-size: 1.3em;
-    padding-top: 28px;
-    padding-left: 15%;
+    padding-top: 20px;
+    /*padding-left: 15%; */
     padding-right: 15%;
-    margin-right: 20px;
+    margin-right: 30px;
 	text-decoration: none;
 }
 
@@ -81,8 +92,8 @@ nav
 	color: #0065FC;
 	font-size: 1.3em;
 	font-weight: 600;
-	margin-top: 25px;
-	margin-left: 12px;
+	/*margin-top: 0px;
+	margin-left: 12px;  */
 }
 
 .register-link:hover
@@ -127,7 +138,7 @@ h3
 {
 	width: 100px;
 	height: 50px;
-	padding-top: 30px;
+	padding-top: 12px;
 }
 
 .titre-photo-activités-a-marseille
@@ -269,7 +280,7 @@ h3
 
 .images-hebergement
 {
-	width: 176px;
+	width: 194px;
 	height: 90px;
 	margin: 3px;
 	object-fit: cover;
@@ -323,7 +334,7 @@ h3
 	display: flex;
 	flex-direction: column;
 	align-content: space-between;
-	width: 182px;
+	width: 200px;
 	height: 150px;
 	/* border: 1px solid #B22222; */
 	border-radius: 10px;
@@ -518,10 +529,7 @@ h3
 	padding: 30px 0px 30px 0px;
 }
 
-li
-{
-	margin: 8px;
-}
+
 
 #container
 {
@@ -612,7 +620,7 @@ a
 @media all and (max-device-width: 667px)
 /*******************************************************/
 
-	{
+{
 
 	body
 	{
@@ -641,6 +649,7 @@ a
 	{
 		width: 300px;
 		height: auto;
+		padding-bottom: 45px;
 	}
 
 	.register-link
@@ -648,7 +657,7 @@ a
 		color: #0065FC;
 		font-size: 3.6em;
 		font-weight: 600;
-		margin-top: 70px;
+		margin-top: 52px;
 	}
 
 	.titre-page-l1
@@ -819,8 +828,8 @@ a
     	width: 140px;
     	height: 100px;
 	}
-/* ************** 500 logements disponibles  ************* */
 
+/* ************** 500 logements disponibles  ************* */
 
 	.logo-info
 	{
@@ -954,16 +963,13 @@ a
 
 	.li-mobile
 	{
-		margin-left:2px;
+		margin-left:20px;
  		float:left;
 	}
 
 	.sousmenu-mobile
 	{
 		visibility: visible;
-		padding:0;
-		/* marge entre image et menu */
- 		margin-bottom: 50px;
  		list-style-type:none;
 	}
 
@@ -971,7 +977,8 @@ a
 	.navigation-link-mobile
 	{
   		border: 30px solid transparent;
-  		padding:20px;
+		/*  cadre  */
+		padding: 25px ;
 		font-size: 2.6em;
 	}
 
